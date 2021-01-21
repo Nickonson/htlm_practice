@@ -1,0 +1,78 @@
+@font-face {
+     font-family: head_font, serif;
+     src: url(head_font.ttf);
+}  
+
+body{
+     margin: 0% 30%;
+     background: linear-gradient(to right, #8BA2BC 20%, #F3F3E6 20%, #F3F3E6 80%, #DBDBDB 80%);
+}
+
+h1,h2,h3,h4,h5,h6{
+     margin: 1.5em 0 0 0;
+     font-family: head_font;
+     letter-spacing: 0.2em;
+}
+h1{
+     font-size: 32px;
+}
+
+table{
+     border-spacing: 0;
+     border-collapse: collapse;
+     border-radius: 10px;
+     width: 600px;
+     margin: 1em;
+
+}
+table th, table td{
+     padding: 5px;
+}
+
+caption{
+     border-top: 2px double #4d95c5;
+     color: rgb(82, 82, 134);
+     font-size: 17px;
+     font-weight: 600;
+}
+th{
+     color: white;
+     background-color: #6DB0AB;
+     width: 30px;
+}
+td{
+     color: rgb(82, 82, 134);
+     border-top: 1px solid #e8edff;
+     text-align: center;
+     
+}
+tr:nth-child(2n + 1) {background: #9dd1b8;}
+tr:nth-child(2n) {background: #e8f5ff;}
+
+tr:nth-child(2n + 1):hover td{background:#d9e9ca}
+tr:nth-child(2n):hover td{background: #F8F4DD}
+
+
+.leftimg{
+     float: left;
+     margin: 0 26px 8px 0;
+}
+
+.rightimg{
+     float: right;
+     margin: 0 0 8px 0px;
+}
+
+figcaption{
+     width: 250px;
+     text-align: center;
+}
+
+.maintenance-table{
+     border: 2px solid #bdbd96;
+     border-radius: 20px;
+     
+     background-color: #ffffc7;
+     width: 300px;
+     padding: 2%;
+}
